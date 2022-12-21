@@ -30,11 +30,7 @@ for anecdot in anecdots:
 #driver = webdriver.Chrome(ChromeDriverManager().install())
 #driver.get('https://nekdo.ru/')
 
-# page = driver.page_source
-# print(page)
-# file = open('page.html', 'w', encoding='utf-8')
-# file.write(page)
-# file.close()
+
 
 with open('anecs.pickle', 'rb') as f:
     anecs = pickle.load(f)
